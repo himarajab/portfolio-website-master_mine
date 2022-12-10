@@ -1,0 +1,117 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Social Network detail</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="{% static 'default.css' %}">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<!-- Link around dots-wrapper added after tutorial video -->
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+		<ul id="navigation">
+			<li><a href="index.html#contact">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<div class="main-container">
+		<br>
+
+
+		
+		<h3>Social Network</h3>
+
+		<p>Social Network like instgram
+		<br>
+		
+		<br>
+
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Python</li>
+			<li>- Django </li>
+			<li>- materialze css</li>
+			<li>- JavScript</li>
+
+		</ul>
+
+
+		<h5>when u subscribe to user u choose the tier u want and based on it u can see the followed user posts belongs to this tier only </h5>
+		<div class="img-container">
+			<img src="{% static 'images/social_home.png' %}">
+		</div>
+
+		<h5>when user create new post he can upload multiple media files and choose the tier this post belongs to </h5>
+		<div class="img-container">
+			<img src="{% static 'images/social_new_post.png' %}">
+
+		</div>
+
+
+		<h5>user receive notifications once another user like ,comment or subscribe to him and he can delete the notifications</h5>
+		<div class="img-container">
+			<img src="{% static 'images/notifications.png' %}">
+
+		</div>
+
+
+		<h5>when u view profile for another user u can add him to favorite list which u create or choose from exist list </h5>
+		<div class="img-container">
+			<img src="{% static 'images/favorite.png' %}">
+
+		</div>
+
+		<h5>display people in lists count and and u can  create another lists or remove the exist lists  </h5>
+		<div class="img-container">
+			<img src="{% static 'images/favorites_list.png' %}">
+
+		</div>
+
+		<h5>unfavourite user and remove him from the list u add him to </h5>
+		<div class="img-container">
+			<img src="{% static 'images/unfavorite.png' %}">
+
+		</div>
+
+
+
+		<h5>list of current active chats and when choose one u can clcik load more button to see more messages if messages number is greater than 5  </h5>
+		<div class="img-container">
+			<img src="{% static 'images/send_message.png' %}">
+
+		</div>
+
+	</div>
+
+</body>
+</html>

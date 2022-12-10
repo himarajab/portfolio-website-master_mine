@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog Detail</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="{% static 'default.css' %}">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<!-- Link around dots-wrapper added after tutorial video -->
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+		<ul id="navigation">
+			<li><a href="index.html#contact">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<div class="main-container">
+		<br>
+
+		<div class="img-container">
+			<img src="">
+		</div>
+		
+		<h3>Blog</h3>
+
+		<p>blog i try to add  new things i learn as and   and ajax requestes and main crud functionality and authentication and authorization
+		<br>
+		
+		<br>
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Python</li>
+			<li>- Django </li>
+			<li>- javascript</li>
+			<li>- Postgres</li>
+
+		</ul>
+
+
+		<h5>blog home check if user is not login display login or register page and post list </h5>
+		<div class="img-container">
+			<img src="{% static 'images/blog_home.png' %}">
+		</div>
+	
+	
+		<h5>after user logged in display add post page and profile and user can like post and paost list with pagination</h5>
+		<div class="img-container">
+			<img src="{% static 'images/blog_index.png' %}">
+		</div>
+
+		<h5>user can edit his profile </h5>
+		<div class="img-container">
+			<img src="{% static 'images/blog_edit_profile.png' %}">
+		</div>
+
+
+
+		<h5>blog send activation after user sign up</h5>
+		<div class="img-container">
+			<img src="{% static 'images/blog_send_activation.png' %}">
+		</div>
+
+		<h5>sample test cases run on the blog using pytest and mixer</h5>
+		<div class="img-container">
+			<img src="{% static 'images/blog_testing.png' %}">
+		</div>
+
+	</div>
+
+</body>
+</html>
