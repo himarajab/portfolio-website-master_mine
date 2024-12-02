@@ -3,351 +3,161 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <style>
-      * {
-        font-family: "Open Sans", sans-serif;
-      }
       body {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin: 0;
+        padding: 0;
+        background-color: #e8f5e9;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
       }
       .header {
+        background-color: #4caf50;
+        color: white;
+        padding: 40px 0;
         text-align: center;
-        border-bottom: 1px solid #999;
+      }
+      .header h2 {
         margin: 0;
+        font-size: 3em;
       }
       .header h3 {
-        color: #666;
-        line-height: 13px;
+        margin: 5px 0;
+      }
+      .header h3 a {
+        color: #ffeb3b;
+        text-decoration: none;
       }
       .content {
-        padding-left: 10px;
-      }
-      .content div {
-        margin-bottom: 20px;
-      }
-      .list li {
-        list-style: none;
-      }
-      /* .inline {
-        display: flex;
-      } */
-      .inline li {
-        display: inline;
-        padding: 5px 10px;
-        /* color: #2196f3; */
-
-        line-height: 45px;
-      }
-      .inline li::after {
-        content: ",";
+        max-width: 900px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
       }
       .content h2 {
-        color: #000;
-        font-weight: bolder;
+        border-bottom: 3px solid #4caf50;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 1.8em;
       }
-      .work {
-        /* margin-left: 5px; */
-        text-decoration: underline;
+      .content ul {
+        padding-left: 20px;
+        list-style-type: none;
       }
-      .links a {
-        font-size: large;
+      .content ul li {
+        margin-bottom: 15px;
+        padding-left: 20px;
+        position: relative;
       }
-      a {
-        text-decoration: underline;
-        color: #2196f3;
+      .content ul li:before {
+        content: '\2713';
+        position: absolute;
+        left: 0;
+        color: #4caf50;
       }
-      * {
-        margin-top: 10px;
-        margin-bottom: 10px;
+      .inline-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .inline-list li {
+        width: 30%;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f1f8e9;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      a:hover {
+        color: #388e3c;
       }
     </style>
-    <title>Ibrahim Mohamed</title>
+    <title>Ibrahim Mohamed - Portfolio</title>
   </head>
   <body>
     <div class="header">
       <h2>Ibrahim Mohamed</h2>
-      <h3>Location: Hassan Mohamed Street - Haram - Giza - Egypt</h3>
-      <h3>Phone: <a href="tel:+201063911837">+201063911837</a></h3>
-      <h3>
-        Email:
-        <a href="mailto:irarajab@yandex.com">
-          irarajab@yandex.com
-        </a>
-      </h3>
-      <h3>
-        LinkedIn:
-      <a href="https://www.linkedin.com/in/ibrahim-mohamed-581b39167/">
-        Ibrahim Mohamed
-      </a>
-      </h3>
-      <h3>
-        HackerRank:
-      <a href="https://www.hackerrank.com/rajabhima2?hr_r=1">
-        @rajabhima2
-      </a>
-      </h3>
-
-      <h3>
-        Portfolio:
-      <a href="http://imohamed.pythonanywhere.com/">
-        Portfolio
-      </a>
-      </h3>
-
-
-      <h3>Github: 
-        <a href="https://github.com/himarajab">
-          github
-        </a>
-        </h3>
+      <h3>Versatile Software Engineer</h3>
+      <h3>Email: <a href="mailto:irarajab@yandex.com">irarajab@yandex.com</a></h3>
+      <h3>LinkedIn: <a href="https://www.linkedin.com/in/ibrahim-mohamed-581b39167/">Ibrahim Mohamed</a></h3>
+      <h3>GitHub: <a href="https://github.com/himarajab">github.com/himarajab</a></h3>
+      <h3>Portfolio: <a href="http://imohamed.pythonanywhere.com/">imohamed.pythonanywhere.com</a></h3>
     </div>
     <div class="content">
+      <h2>Professional Summary</h2>
+      <p>Versatile software engineer with a strong foundation in backend development and API integration. Experienced in customizing and deploying Odoo modules, as well as designing high-performance RESTful APIs. Independent of specific frameworks, I focus on continually updating my skills to stay current with modern technologies. Proficient in maintaining code quality, enhancing infrastructure performance, and collaborating on technical decisions to meet complex business requirements.</p>
+
+      <h2>Education</h2>
+      <p><strong>The Advanced Academy</strong> (2014 - 2018)<br>Bachelor’s degree in Information Technology<br>Grade: Good</p>
+
+      <h2>Work Experience</h2>
       
-      <h2>Professional Summary:</h2> 
+      <h3>Theaccounter – Backend Developer (May 2023 – Present)</h3>
+      <ul>
+        <li>Refactored the codebase for improved performance and maintainability.</li>
+        <li>Developed and customized Odoo modules to integrate external APIs, enhancing system interoperability.</li>
+        <li>Optimized infrastructure, ensuring security compliance and achieving significant performance gains.</li>
+        <li>Participated in strategic technical decisions to strengthen the company’s technology stack.</li>
+      </ul>
+
+      <h3>Spectrum – Python Developer (June 2022 – May 2023)</h3>
+      <ul>
+        <li>Conducted requirements analysis and developed custom Odoo modules tailored to business needs.</li>
+        <li>Created financial reports and deployed projects on VPS and Odoo SH.</li>
+        <li>Contributed to technical decision-making, particularly around technology stack advancements.</li>
+      </ul>
+
+      <h3>On Going – Python Developer (July 2021 – June 2022)</h3>
+      <ul>
+        <li>Analyzed requirements and developed automation modules for HR operations.</li>
+        <li>Addressed security concerns and deployed projects, ensuring reliable performance.</li>
+      </ul>
+
+      <h3>Ordarawy Market – Software Engineer (March 2020 – June 2021)</h3>
+      <ul>
+        <li>Designed and implemented high-performance RESTful APIs.</li>
+        <li>Developed cost estimation services based on customer location, integrating PostgreSQL and Odoo with Flutter.</li>
+        <li>Deployed projects on VPS using Nginx, optimizing system scalability.</li>
+      </ul>
+
+      <h2>Open-source Projects</h2>
+      <h3>E-commerce Application</h3>
+      <ul>
+        <li>Developed a custom OTP-based authentication system for secure user access.</li>
+        <li>Implemented a wallet feature for flexible payment options and real-time order notifications.</li>
+        <li>Utilized Python, Django Rest Framework, PostgreSQL, Firebase, and Heroku for project deployment.</li>
+      </ul>
+
+      <h2>Proficiency Skills</h2>
       <p>
-        I am a software engineer, I am frameworks and technology independent, I keep my skills updated and learn Modern technologies,  with experience in backend development and basics of the front end.
+        <strong>Professional:</strong> Python, Django, Odoo, API Development, Django Rest Framework, Effective Communication<br>
+        <strong>Intermediate:</strong> Nginx, AWS, PostgreSQL, XML, TDD (Pytest, Factory Boy), Linux Server, Git, FastAPI<br>
+        <strong>Basic:</strong> Docker, Firebase, Celery, JavaScript (React)
       </p>
-      
-      <h2>Work Experience:</h2>
-      
-      <div>
-        <ul class="list">
-          <h3>Theaccounter - Backend Developer</h3>
-          <p>5-2023 - Present</p>
-          <ul>
-            <li>refactor codebase performance and maintainability.</li>
-            <li>Developed and customized modules to meet business requirements via integrating odoo APIS with external APIS.</li>
-            <li>Enhanced the infrastructure and ensured security compliance and better performance result.</li>
-            <li>Participated in technical decisions related to the company's tech stack.</li>
-          </ul>
 
-          <h3>Spectrum - Python Developer</h3>
-          <p>6-2022 - 5-2023</p>
-          <ul>
-            <li>Conducted requirements analysis and developed custom modules to meet business requirements.</li>
-            <li>Created financial reports and deployed projects with on VPS and odoo SH</li>
-            <li>Participated in technical decisions for the company's tech stack.</li>
-          </ul>
-          
-          <h3>On Going - Python Developer</h3>
-          <p>7-2021 - 6-2022</p>
-          <ul>
-            <li>Performed requirements analysis and developed HR automation modules.</li>
-            <li>Deployed projects and addressed security concerns.</li>
-          </ul>
-          
-          <h3>Ordarawy Market - Software Engineer</h3>
-          <p>3-2020 - 6-2021</p>
-          <ul>
-            <li>Conducted requirements analysis and created high-performance RESTful APIs.</li>
-            <li>Developed a service to determine costs based on customer locations.</li>
-            <li>Integrated data from PostgreSQL and Odoo for use with Flutter.</li>
-            <li>Deployed projects on VPS using Nginx.</li>
-          </ul>
-        </div>
-  
-        
-    </ul>
-      </div>
+      <h2>Military Service</h2>
+      <p>Completed</p>
 
-      <h2>Some of the work I was a member of:</h2>
-
-      <div class="links">
-        <a href="https://www.theaccounter.com//">
-          Theaccounter
-        </a>
-      </div>
-      <h3>Technologies I used:</h3>
-      <ul >
-        <li>XML</li>
-        <li>Odoo</li>
-        <li>Django</li>
-        <li>Git</li>
-        <li>AWS</li>
-        <li>Docker</li>
+      <h2>Personal Skills</h2>
+      <ul class="inline-list">
+        <li>Problem Solving</li>
+        <li>Communication</li>
+        <li>Public Speaking</li>
+        <li>Teamwork</li>
+        <li>Organization</li>
+        <li>Eager to Learn</li>
+        <li>Presentation</li>
       </ul>
-
-
-      <div class="links">
-        <a href="https://sys-spectrum.com/">
-          Spectrum
-        </a>
-      </div>
-      <h3>Technologies I used:</h3>
-      <ul >
-        <li>XML</li>
-        <li>Odoo</li>
-        <li>Bootstrap</li>
-        <li>Git</li>
-      </ul>
-
-
-      <div class="links">
-        <a href="https://ongoing-co.com/">
-          ongoing
-        </a>
-      </div>
-      <h3>Technologies I used:</h3>
-      <ul >
-        <li>XML</li>
-        <li>Odoo</li>
-        <li>Bootstrap</li>
-        <li>Git</li>
-      </ul>
-
-
-
-
-      <h3 class="work">Ordarawy Market</h3>
-      <div class="links">
-        <a href="https://play.google.com/store/apps/details?id=com.ordar.ordarawy_market&hl=en&gl=US">
-          Android
-        </a>
-        <a href="https://apps.apple.com/us/app/ordarawy/id1524196823">
-          IOS
-        </a>
-      </div>
-
-      <h3>Technologies I used:</h3>
-      <ul >
-        <li>Python3 </li>
-        <li>Odoo </li>
-        <li>Fast API</li>
-        <li>PostgreSQL</li>
-      </ul>
-      <h3 class="work">shipping</h3>
-      <div class="links">
-        <a href="http://shipping.ordarawy.com/">
-          Website
-          </a>
-      </div>
-      <p>
-        an inventory management system that handles products quantities and prices calculation and order status according to delivery 
-      </p>
-      <h3>Technologies I used:</h3>
-      <ul >
-        <li>Django</li>
-        <li>Java script</li>
-        <li>Odoo</li>
-        <li>Bootstrap</li>
-      </ul>
-      
-      
-
-
-      
-
-
-      
-
-      
-     
-
-      <h3 class="work">Some open-source projects</h3>
-      <h3 class="work">e-commerce application</h3>
-      <li>
-        custom authentication: create a custom OTP that allows only verified users to use the application 
-        </li>
-        <li>
-          cart: handle calculating products in cart prices and quantities and order total value   
-        </li>
-        <li>
-          wallet: allow users to pay with their wallet whether the partial or total value
-          </li>
-          <li>
-            canceling an order: update products quantities and update user wallet if it was used 
-            </li>
-            <li>
-              send real-time notifications when an order is created successfully
-              </li>
-      <h3>Technologies I used:</h3>
-      <ul >
-        <li>Python</li>
-        <li>Django Rest Framework</li>
-        <li>Postgresql</li>
-        <li>Heroku</li>
-        <li>Firebase</li>
-        <li>Git</li>
-        <li>trello</li>
-      </ul>
-
-
-        <a href="https://github.com/himarajab/pytest-django">
-          pytest-django
-        </a>
-
-        <p>
-          a simple classroom project to practice using Django Rest Framework 
-          and testing using Django Test Case and Pytest
-        </p>
-        
-        <a href="https://github.com/himarajab/pycasts">
-          pycasts
-        </a>
-
-        <p>
-          a content aggreagation for podcasts using Django Rest Framework 
-          and celery and use sphnix for documentation 
-        </p>
-
-      </div>
-
-
-      <h3 class="work">proficiency SKills</h3>
-      
-      <h5>Skill Level: Professional</h5>
-      <ul >
-        <li>Python</li>
-        <li>Django</li>
-        <li>Odoo</li>
-        <li>API development</li>
-        <li>Django Rest Framework</li>
-        <li>Effective communication and collaboration</li>
-      </ul>
-      
-      <h5>Skill Level: Intermediate</h5>
-      <ul >
-        <li>Nginx</li>
-        <li>AWS</li>
-        <li>Postgresql</li>
-        <li>XML</li>
-        <li>Ability to document technical processes to promote bi-directional knowledge transfer within a team environment.</li>
-        <li>TDD(Pytest,factory boy)</li>
-        <li>Linux Server</li>
-        <li>Git</li>
-        <li>Debugging</li>
-        <li>fast API</li>
-      </ul>
-      
-      <h5>Skill Level: basics</h5>
-      <ul >
-        <li>Bootstrap4</li>
-        <li>docker</li>
-        <li>Firebase</li>
-        <li>Celery</li>
-        <li>Java Script (React)</li>
-      </ul>
-
-
-      <h3 class="work">Education:</h3>
-      <p>Bachelor degree in information technology </p>
-
-      <h3 class="work">Miltary Service :</h3>
-      <p>Finished </p> 
 
       <h2>Languages</h2>
       <ul>
         <li>Arabic: Native</li>
-        <li>English: Upper intermediate</li>
+        <li>English: Upper Intermediate</li>
       </ul>
-
     </div>
-
   </body>
 </html>
